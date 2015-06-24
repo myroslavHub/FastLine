@@ -1,0 +1,12 @@
+D:\mhavdio\Project\Fast Line\Fast Line\obj\Debug\UnityVS.Fast Line.CSharp.csprojResolveAssemblyReference.cache
+D:\mhavdio\Project\2\Fast Line\Fast Line\Temp\UnityVS_bin\Debug\Assembly-CSharp.dll
+D:\mhavdio\Project\2\Fast Line\Fast Line\Temp\UnityVS_bin\Debug\Assembly-CSharp.pdb
+D:\mhavdio\Project\2\Fast Line\Fast Line\Temp\UnityVS_bin\Debug\UnityEditor.dll
+D:\mhavdio\Project\2\Fast Line\Fast Line\Temp\UnityVS_bin\Debug\UnityEngine.dll
+D:\mhavdio\Project\2\Fast Line\Fast Line\Temp\UnityVS_bin\Debug\UnityEngine.UI.dll
+D:\mhavdio\Project\2\Fast Line\Fast Line\Temp\UnityVS_bin\Debug\UnityEngine.xml
+D:\mhavdio\Project\2\Fast Line\Fast Line\Temp\UnityVS_bin\Debug\UnityEditor.xml
+D:\mhavdio\Project\2\Fast Line\Fast Line\Temp\UnityVS_bin\Debug\UnityEngine.UI.xml
+D:\mhavdio\Project\2\Fast Line\Fast Line\obj\Debug\UnityVS.Fast Line.CSharp.csprojResolveAssemblyReference.cache
+D:\mhavdio\Project\2\Fast Line\Fast Line\obj\Debug\Assembly-CSharp.dll
+D:\mhavdio\Project\2\Fast Line\Fast Line\obj\Debug\Assembly-CSharp.pdb
