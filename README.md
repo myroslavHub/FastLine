@@ -2,7 +2,8 @@
 
 ### Simple infinite runner made with Unity3D.
 
-####Swipe up and down to avoid blocks!!! Сollect circle to unlock other characters!!!!
+####Swipe up and down to avoid blocks!!! 
+####Сollect circle to unlock other characters!!!!
 
 [![menu](https://github.com/myroslavHub/FastLine/blob/master/Img/menu.png)](https://github.com/myroslavHub/FastLine/blob/master/Img/menu.png)
 
