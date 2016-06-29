@@ -13,6 +13,8 @@ public class PlayerController : MonoBehaviour
 	public Transform _GroundCheck;
 	private float _circleRadius = 0.1f;
 
+	public ParticleSystem _CircleDestroyEffect;
+
 	void FixedUpdate()
 	{
 		_grounded = Physics2D.OverlapCircle(_GroundCheck.position, _circleRadius, _LayerMask);
@@ -29,9 +31,35 @@ public class PlayerController : MonoBehaviour
 			BallType type = coll.gameObject.GetComponent<BallScript>()._Type;
 			ScoreManager.Instance.CurrentBallAdd(type, 1);
 			ScoreManager.Instance.CurrentScoreAdd(type);
-			Destroy(coll.gameObject);
+
+			instantiate(_CircleDestroyEffect, coll.gameObject);
+
+			//Destroy(coll.gameObject);
 		}
 	}
+
+	private ParticleSystem instantiate(ParticleSystem prefab, GameObject gameObject)
+	{
+		ParticleSystem newParticleSystem = Instantiate(
+		  prefab,
+		  gameObject.transform.position,
+		  Quaternion.identity
+		) as ParticleSystem;
+
+
+		Destroy(
+		  newParticleSystem.gameObject,
+		  newParticleSystem.startLifetime
+		);
+
+		Destroy(
+			gameObject.gameObject,
+			newParticleSystem.startLifetime
+			);
+
+		return newParticleSystem;
+	}
+
 	void OnDisable()
 	{
 		TouchAndSwipeBehavior.OnSwipeDetected -= OnSwipe;
